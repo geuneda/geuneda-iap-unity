@@ -1,0 +1,17 @@
+{
+  "name": "com.geuneda.iap.unity",
+  "displayName": "Geuneda IAP Unity",
+  "author": "geuneda",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "license": "MIT",
+  "description": "com.geuneda.iap 의 Unity IAP 5(StoreController) 어댑터입니다. Unity IAP 의 자동 재전달을 끄고(조회한 미확정 주문은 서비스가 직접 처리), 상품 조회 재시도를 끄고(서비스가 시간 제한), 실패 이유와 보유 상태를 정수가 아닌 멤버별로 옮기고, App Store StoreKit 2 의 거래 서명(JWS)을 주문에 담습니다. 스토어가 종류를 모르는 주문은 확정하지 않도록 표시합니다.",
+  "type": "library",
+  "hideInEditor": false,
+  "dependencies": {
+    "com.geuneda.iap": "0.1.0",
+    "com.geuneda.core": "0.4.0",
+    "com.cysharp.unitask": "2.5.10",
+    "com.unity.purchasing": "5.4.4"
+  }
+}
